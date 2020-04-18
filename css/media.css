@@ -1,0 +1,334 @@
+/*extra small device*/
+
+@media(max-width:575px) {
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        background: #0cb4ce;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: #fff4f9;
+        line-height: 30px;
+        background: #000;
+    }
+
+    .banner-text {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .banner-text h5 {
+        font-size: 30px;
+
+    }
+
+
+    .banner-text h3 {
+        font-size: 26px;
+
+    }
+
+    .banner-text span {
+        font-size: 35px;
+    }
+
+    .banner-text ul li {
+        padding-left: 10px;
+    }
+
+    .title-black {
+        padding: 10px 0px;
+    }
+
+    .title-black h2 {
+        font-size: 30px;
+
+    }
+
+    .title-white h2 {
+        font-size: 30px;
+    }
+
+    .about-write h3 {
+        font-size: 16px;
+        line-height: 30px;
+        padding: 10px 0px;
+    }
+
+    .about-write h2 {
+        font-size: 20px;
+    }
+
+    .about-write h4 {
+        line-height: 35px;
+    }
+
+    .steps-topic {
+        text-align: center;
+    }
+
+    .steps-topic h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .steps-topic p {
+        padding-right: 0px;
+    }
+
+    .fun-topic h2 {
+        text-align: center;
+    }
+
+    .fun-topic h2::after {
+        border-radius: 50%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .fun-topic h4 {
+        text-align: center;
+    }
+
+    .fun-topic P {
+        text-align: center;
+    }
+
+    .brand-image {
+        display: inline-block;
+        opacity: 1;
+    }
+
+    .service-topic {
+        margin-bottom: 20px;
+    }
+
+    .button {
+        margin-bottom: 15px;
+    }
+
+    .story-image {
+        display: inline-block;
+    }
+
+    .story-topics {
+
+        text-align: center;
+    }
+
+    .comments h5 {
+        padding: 0px;
+    }
+
+    .footer-link ul li {
+        margin: 0px 10px;
+
+    }
+
+
+    /*extra small device demo page*/
+
+    .banner-text h1 {
+        font-size: 50px;
+    }
+
+
+    .banner-text p {
+        padding: 0 10px;
+    }
+
+    .banner-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .box {
+
+        margin: 20px 40px;
+    }
+
+
+    .footer-text ul li {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    ul,
+    li {
+
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+/*extra small device*/
+
+@media(min-width:576px)and (max-width:767px) {
+    .banner-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        background: #0cb4ce;
+    }
+
+    .banner-text span {
+        font-size: 50px;
+    }
+
+    .title-black {
+        padding: 30px 0px;
+
+    }
+
+    .title-white {
+        padding: 30px 0px;
+
+    }
+
+    .banner-text h3 {
+        font-size: 35px;
+    }
+
+    .banner-text span {
+        font-size: 62px;
+
+    }
+
+    .button {
+        margin-bottom: 20px;
+    }
+
+    .comments h5 {
+
+        padding: 0px 0px;
+    }
+
+  .banner-text h1 {
+        font-size: 50px;
+    }
+
+
+    .banner-text p {
+        padding: 0 10px;
+    }
+
+    .banner-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .box {
+
+        margin: 20px 40px;
+    }
+
+
+    .footer-text ul li {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    ul,
+    li {
+
+        text-align: center;
+    }
+}
+
+}
+
+@media(min-width:768px)and (max-width:991px) {
+
+    .navbar-toggler:not(:disabled):not(.disabled) {
+        cursor: pointer;
+        background: #0cb4ce;
+    }
+
+    .banner-text {
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .button {
+        margin-bottom: 20px;
+    }
+
+    .comments h5 {
+        padding: 0px 0px;
+    }
+
+    .steps-topic {
+        text-align: center;
+    }
+
+    .steps-topic h2::after {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .steps-topic p {
+        padding-right: 0px;
+    }
+
+    .fun-topic {
+        text-align: center
+    }
+
+    .fun-topic h2 {
+        text-align: center;
+    }
+
+    .fun-topic h2::after {
+        border-radius: 50%;
+        transform: translateX(-50%);
+        left: 50%;
+    }
+
+    .brand-image {
+        display: inline-block;
+        opacity: 1;
+    }
+    
+    /* device demo page*/
+
+    .banner-text h1 {
+        font-size: 50px;
+    }
+
+
+    .banner-text p {
+        padding: 0 10px;
+    }
+
+    .banner-text {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .box {
+
+        margin: 20px 40px;
+    }
+
+
+    .footer-text ul li {
+        padding: 10px;
+        font-size: 12px;
+    }
+
+    ul,
+    li {
+
+        text-align: center;
+    }
+}
+
+}
